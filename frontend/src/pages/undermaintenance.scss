@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
+
+
+
+body{
+    background-color: #eaeaea !important;
+    overflow-x: hidden;
+}
+#notfound .notfound {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .notfound__img
+  {
+    animation: spin 10s infinite;
+    transition: 2s;
+  }
+  .notfound__img:hover
+  {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(0deg);
+      }
+      70% {
+        transform: rotate(-20deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+  }
+  .notfound h2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  
+  .notfound p {
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+  }
+  @media (max-width: 698px) {
+    .notfound h2 {
+        padding: 0 10px;
+        font-size: 25px;
+      }
+  }
+  @media (max-width: 480px) {
+    .notfound__img {
+      width: 251px;
+      height: 250px;
+    }
+    #notfound .notfound {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .notfound h2 {
+      padding: 0 10px;
+      font-size: 29px;
+    }
+  }
+  @media (max-width: 340px) {
+    .notfound h2 {
+      padding: 0 10px;
+      font-size: 25px;
+    }
+  }

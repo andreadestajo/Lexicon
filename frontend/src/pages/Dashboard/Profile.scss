@@ -1,0 +1,31 @@
+body{
+    overflow-x: hidden;
+}
+.hovering-mobile input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .hovering-mobile input[type="file"] {
+    padding: 100px;
+    background: #2d2d2d;
+  }
+  .hovering-mobile1 input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .hovering-mobile1 input[type="file"] {
+    padding: 100px;
+    background: #2d2d2d;
+  }

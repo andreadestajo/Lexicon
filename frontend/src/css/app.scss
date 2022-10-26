@@ -1,0 +1,55 @@
+// app global css in SCSS form
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Raleway&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Raleway', sans-serif;
+.font-header{
+    font-family: 'Raleway', sans-serif;
+}
+.btn-size{
+    font-size: 18px;
+}
+.bg-default
+{
+    background: #2f4c7e;
+}
+.color-default
+{
+    color: white;
+}
+.text-default
+{
+    color: #2f4c7e;
+}
+.color-primary{
+    color: #4472c4;
+}
+.bg-color-primary{
+    background-color: #4472c4;
+}
+.font-bebas{
+    font-family: 'Bebas Neue', impact;
+    letter-spacing: 1px;
+}
+
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-monseratt{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.font-oswald{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+.admin-table {
+    padding: 20px 150px;
+  }
+

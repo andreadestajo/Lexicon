@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Raleway&display=swap");
+.font-header {
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-size {
+  font-size: 18px;
+}
+
+.bg-default {
+  background: #2f4c7e;
+}
+
+.color-default {
+  color: white;
+}
+
+.text-default {
+  color: #2f4c7e;
+}
+
+.color-primary {
+  color: #4472c4;
+}
+
+.bg-color-primary {
+  background-color: #4472c4;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-monseratt {
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #062d70;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 1px #999;
+            transition: 0.3s;
+        }
+
+        .button:active {
+            background-color: #2983e7;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .header-background {
+            background-image: url("http://lexiconbank.holdings/countdown-images/lexiconbank_logo.png");
+            /*background-image: url("image/header.png");*/
+            background-repeat: no-repeat;
+            background-size: 250px 60px;
+            background-position: center;
+            height: 250px;
+            text-align: left;
+        }
+
+        h6 {
+            padding-top: 150px;
+            margin-left: 20px;
+            color: #2E8BC0;
+
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; background:  #f5f5ef;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td style="padding: 10px 0 30px 0;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
+                    style=" border: 1px solid #cccccc; border-collapse: collapse;" style="background-color: white;">
+                    <tr>
+                        <td align="center" bgcolor="f2f2f2" class="header-background"
+                            style="color: #153643; font-size: 28px; font-weight: bold; font-family: Arial, sans-serif;">
+                            <h6>Hi {{ name }},</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="color: #404040; font-family: Arial, sans-serif; font-size: 20px; padding-left: 30px;">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="white" style="padding: 40px 30px 40px 30px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="background-color: white;">
+                                <tr>
+                                    <td
+                                        style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+                                        A Lexicon Bank administrator has created an account for you. Your account
+                                        details are as follows:
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+                                        <b>Assigned profile:</b>{{role}} <br>
+                                        <b>Email address:</b> {{email}} <br>
+                                        <b>Temporary Password:</b> {{password}}
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+                                        Sign in with your account using the information above and change your password
+                                        immediately
+                                        to make sure your account is secure.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="padding: 25px 0 0 0; color: #404040; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;text-align: center;">
+                                        <a style="color: white; text-decoration: none;" class="button" role="button"
+                                            aria-pressed="true" href="https://enabler.link/lexicon/#/admin/login">Login to
+                                            Lexicon Bank</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td valign="top">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                        style="border-top: 1px solid #868B8E; margin-top:30px">
+                                                        <tr>
+                                                            <td
+                                                                style="padding: 25px 0 0 0; color: #868B8E; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;text-align: left; ">
+                                                                <b>Regards,</b> <br><br>
+                                                                <b>The Lexicon Bank Team</b>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="font-size: 0; line-height: 0;" width="20">
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <p style="text-align: center;">© 2020 LEXICON - All Rights Reserved</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

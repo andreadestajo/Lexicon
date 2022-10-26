@@ -1,0 +1,3 @@
+module.exports =
+    ["Male", "Female"]
+

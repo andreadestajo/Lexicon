@@ -1,1 +1,3 @@
-# Lexicon
+# lexiconbank
+
+npm run dev
